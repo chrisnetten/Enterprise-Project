@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="gctrackerModelStoreContainer" CdmEntityContainer="DefaultConnection">
+    <EntitySetMapping Name="Basketballs">
+      <EntityTypeMapping TypeName="gctrackerModel.Basketball">
+        <MappingFragment StoreEntitySet="Basketball">
+          <ScalarProperty Name="basketballID" ColumnName="basketballID" />
+          <ScalarProperty Name="teamName1" ColumnName="teamName1" />
+          <ScalarProperty Name="teamName2" ColumnName="teamName2" />
+          <ScalarProperty Name="score1" ColumnName="score1" />
+          <ScalarProperty Name="score2" ColumnName="score2" />
+          <ScalarProperty Name="asists1" ColumnName="asists1" />
+          <ScalarProperty Name="asists2" ColumnName="asists2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Hockeys">
+      <EntityTypeMapping TypeName="gctrackerModel.Hockey">
+        <MappingFragment StoreEntitySet="Hockey">
+          <ScalarProperty Name="hockeyID" ColumnName="hockeyID" />
+          <ScalarProperty Name="teamName1" ColumnName="teamName1" />
+          <ScalarProperty Name="teamName2" ColumnName="teamName2" />
+          <ScalarProperty Name="score1" ColumnName="score1" />
+          <ScalarProperty Name="score2" ColumnName="score2" />
+          <ScalarProperty Name="asists1" ColumnName="asists1" />
+          <ScalarProperty Name="asists2" ColumnName="asists2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Paintballs">
+      <EntityTypeMapping TypeName="gctrackerModel.Paintball">
+        <MappingFragment StoreEntitySet="Paintball">
+          <ScalarProperty Name="paintballID" ColumnName="paintballID" />
+          <ScalarProperty Name="teamName1" ColumnName="teamName1" />
+          <ScalarProperty Name="teamName2" ColumnName="teamName2" />
+          <ScalarProperty Name="score2" ColumnName="score2" />
+          <ScalarProperty Name="asists1" ColumnName="asists1" />
+          <ScalarProperty Name="asists2" ColumnName="asists2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Soccers">
+      <EntityTypeMapping TypeName="gctrackerModel.Soccer">
+        <MappingFragment StoreEntitySet="Soccer">
+          <ScalarProperty Name="soccerID" ColumnName="soccerID" />
+          <ScalarProperty Name="teamName1" ColumnName="teamName1" />
+          <ScalarProperty Name="teamName2" ColumnName="teamName2" />
+          <ScalarProperty Name="score1" ColumnName="score1" />
+          <ScalarProperty Name="score2" ColumnName="score2" />
+          <ScalarProperty Name="asists1" ColumnName="asists1" />
+          <ScalarProperty Name="asists2" ColumnName="asists2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
